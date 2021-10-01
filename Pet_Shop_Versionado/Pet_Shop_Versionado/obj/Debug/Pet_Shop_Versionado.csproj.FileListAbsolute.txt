@@ -1,0 +1,9 @@
+C:\Users\jack_\Sistema\Pet_Shop_Versionado\Pet_Shop_Versionado\bin\Debug\Pet_Shop_Versionado.exe.config
+C:\Users\jack_\Sistema\Pet_Shop_Versionado\Pet_Shop_Versionado\bin\Debug\Pet_Shop_Versionado.exe
+C:\Users\jack_\Sistema\Pet_Shop_Versionado\Pet_Shop_Versionado\bin\Debug\Pet_Shop_Versionado.pdb
+C:\Users\jack_\Sistema\Pet_Shop_Versionado\Pet_Shop_Versionado\obj\Debug\Pet_Shop_Versionado.csproj.AssemblyReference.cache
+C:\Users\jack_\Sistema\Pet_Shop_Versionado\Pet_Shop_Versionado\obj\Debug\Pet_Shop_Versionado.Properties.Resources.resources
+C:\Users\jack_\Sistema\Pet_Shop_Versionado\Pet_Shop_Versionado\obj\Debug\Pet_Shop_Versionado.csproj.GenerateResource.cache
+C:\Users\jack_\Sistema\Pet_Shop_Versionado\Pet_Shop_Versionado\obj\Debug\Pet_Shop_Versionado.csproj.CoreCompileInputs.cache
+C:\Users\jack_\Sistema\Pet_Shop_Versionado\Pet_Shop_Versionado\obj\Debug\Pet_Shop_Versionado.exe
+C:\Users\jack_\Sistema\Pet_Shop_Versionado\Pet_Shop_Versionado\obj\Debug\Pet_Shop_Versionado.pdb
