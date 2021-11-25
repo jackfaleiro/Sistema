@@ -32,7 +32,6 @@ namespace Pet_Shop_Versionado.Formulario
             this.lblNomePet = new System.Windows.Forms.Label();
             this.txtNomePet = new System.Windows.Forms.TextBox();
             this.btnCadastrarPet = new System.Windows.Forms.Button();
-            this.txtRaca = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
@@ -65,30 +64,21 @@ namespace Pet_Shop_Versionado.Formulario
             this.btnCadastrarPet.UseVisualStyleBackColor = true;
             this.btnCadastrarPet.Click += new System.EventHandler(this.btnCadastrarPet_Click);
             // 
-            // txtRaca
-            // 
-            this.txtRaca.Location = new System.Drawing.Point(285, 175);
-            this.txtRaca.Multiline = true;
-            this.txtRaca.Name = "txtRaca";
-            this.txtRaca.Size = new System.Drawing.Size(425, 40);
-            this.txtRaca.TabIndex = 3;
-            // 
             // label1
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Arial Narrow", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(138, 186);
+            this.label1.Location = new System.Drawing.Point(512, 337);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(60, 29);
-            this.label1.TabIndex = 4;
-            this.label1.Text = "Raça";
+            this.label1.Size = new System.Drawing.Size(111, 29);
+            this.label1.TabIndex = 3;
+            this.label1.Text = "Nome PET";
             // 
             // Painel_Animal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.txtRaca);
             this.Controls.Add(this.btnCadastrarPet);
             this.Controls.Add(this.txtNomePet);
             this.Controls.Add(this.lblNomePet);
@@ -104,7 +94,6 @@ namespace Pet_Shop_Versionado.Formulario
         private System.Windows.Forms.Label lblNomePet;
         private System.Windows.Forms.TextBox txtNomePet;
         private System.Windows.Forms.Button btnCadastrarPet;
-        private System.Windows.Forms.TextBox txtRaca;
         private System.Windows.Forms.Label label1;
     }
 }
