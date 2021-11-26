@@ -31,6 +31,7 @@ namespace Pet_Shop_Versionado
         {
             this.Menu_Lateral = new System.Windows.Forms.Panel();
             this.painel_Animal1 = new Pet_Shop_Versionado.Formulario.Painel_Animal();
+            this.button1 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // Menu_Lateral
@@ -47,12 +48,23 @@ namespace Pet_Shop_Versionado
             this.painel_Animal1.Name = "painel_Animal1";
             this.painel_Animal1.Size = new System.Drawing.Size(1134, 702);
             this.painel_Animal1.TabIndex = 1;
+            this.painel_Animal1.Load += new System.EventHandler(this.painel_Animal1_Load);
+            // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(386, 194);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(75, 23);
+            this.button1.TabIndex = 2;
+            this.button1.Text = "button1";
+            this.button1.UseVisualStyleBackColor = true;
             // 
             // Home
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1368, 706);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.painel_Animal1);
             this.Controls.Add(this.Menu_Lateral);
             this.Name = "Home";
@@ -65,6 +77,7 @@ namespace Pet_Shop_Versionado
 
         private System.Windows.Forms.Panel Menu_Lateral;
         private Formulario.Painel_Animal painel_Animal1;
+        private System.Windows.Forms.Button button1;
     }
 }
 
